@@ -1,0 +1,20 @@
+Everyone rolls secretly
+Player 1 bets that at least a certain amount of a certain face are on the table.
+In order, other players can:
+    call a larger bet (1)
+    call the previous player on their bluff (2)
+    call a spot-on bet (3)
+
+(1) if it's a valid bet, you move on to the next player.
+(2) everyone reveals their dice:
+    the bet was true (a)
+    the bet was false (b)
+(a) the calling player loses a die*
+(b) the bluffing player loses a die*
+(3) everyone reveals their dice:
+    the bet was spot-on (a)
+    the bet was not spot-on (b)
+(a) all players lose a die*
+(b) the calling player loses a die*
+
+* if at any point, a player reaches zero dice, they are out
